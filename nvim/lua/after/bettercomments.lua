@@ -1,0 +1,2 @@
+require('better-comment').Setup()
+
