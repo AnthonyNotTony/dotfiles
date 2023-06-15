@@ -1,0 +1,31 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Colors
+[colors]
+  primary = { background = "#000000", foreground = "#ffffff" }
+
+# Window dimensions
+[window]
+  dimensions = { columns = 80, lines = 24 }
+  dynamic_title = true
+
+# Scrolling
+[scrolling]
+  history = 1000
+
+# Cursor style
+[cursor]
+  style = "Block"
+
+# Bell
+[bell]
+  animation = "EaseOutExpo"
+  duration = 200
+
+# Font
+[font]
+  normal = { family = "Fira Code NF" }
+
+# Selection
+[selection]
+save_to_clipboard = true
